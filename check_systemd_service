@@ -78,8 +78,6 @@ def get_service_status(service):
 
     return { "name": name, "headers": headers, "journal": stdout_lines, "unparsed": stdout }
 
-    return headers
-
 if __name__ == "__main__":
     main()
 
